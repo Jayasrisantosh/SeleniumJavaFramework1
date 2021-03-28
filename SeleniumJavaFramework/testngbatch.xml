@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Functional test Suite">
+  <test verbose="2" thread-count="5" name="BasicTest">
+    <classes>
+      <class name="testNG.LoginTest"/>
+      <class name="testNG.SignupTest"/>
+    </classes>
+  </test> <!-- BasicTest -->
+</suite> <!-- Functional test Suite -->
